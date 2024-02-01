@@ -3,7 +3,14 @@
     padding: 0;
 }
 
+.apresentação {
+    display: flex;
+    align-items: center;
+}
+
 body {
+    box-sizing: border-box;
+    height: 100vh;
     background-color: #000000;
     color: #F6F6F6;
 }
