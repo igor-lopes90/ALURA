@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 300px; /* Altura ajustável conforme necessário */
+  }
+  
