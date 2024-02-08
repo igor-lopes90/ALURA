@@ -55,9 +55,12 @@ body {
 }
 
 .apresentacao__links__botao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
     width: 378px;
     padding: 21.5px 0;
-    
 
     text-align: center;
     /* background-color: #22D4FD; */
@@ -69,4 +72,9 @@ body {
     font-weight: 600;
     text-decoration: none;
     color: #f6f6f6;
+}
+
+.apresentacao__links__botao:hover {
+    background-color: #272727;
+    cursor: pointer;
 }
