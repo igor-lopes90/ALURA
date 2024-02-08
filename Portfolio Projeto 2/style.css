@@ -17,7 +17,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    padding: 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,4 +77,15 @@ body {
 .apresentacao__links__botao:hover {
     background-color: #272727;
     cursor: pointer;
+}
+
+.rodape {
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 23.64px 0;
+
+    text-align: center;
+    font-size: 1.50rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
